@@ -58,5 +58,25 @@ def uppercase(fun):
 def display():
     return 'we are good students'
 
-res = display()  # splitting(uppercase(display)) => splitting(innerfun)
+res = display()  # splitting(uppercase(display)) => splitting(innerfun) => inner(innerfun)
+print(res)
+
+#parameterized decorator
+# you need to wrap decorator with funtion that function will take input
+
+
+def wrapperfun(discount):
+    def calcBill(fun):
+        def innerBill(amt):
+            actamt = fun(amt)
+            res = actamt - (actamt*discount)/100
+            return res
+        return innerBill
+    return calcBill
+
+@wrapperfun(10)
+def getBill(x):
+    return x
+
+res = getBill(1000)
 print(res)
