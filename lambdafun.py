@@ -26,6 +26,7 @@ print(res)
 res = sorted(x,reverse=True)
 print(res)
 
+
 lst = [(1,5),(3,1),(5,0),(7,8)]
 
 res = sorted(lst,key = lambda x:x[1])
