@@ -1,4 +1,32 @@
-# x = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+x = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+def flat(x,res = []):
+    for i in x:
+        if isinstance(i,int):
+            res.append(i)
+        else:
+            flat(i)
+            
+    return res
+
+
+res = flat(x)
+print(res)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # def flat(x,res= []):
 #     for i in x:
