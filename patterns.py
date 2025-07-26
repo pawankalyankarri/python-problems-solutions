@@ -108,5 +108,48 @@ rows = int(input('Enter a number: '))
 #     print(' '*(i-1)+'*'*(2*rows-2*i+1))
 
 
+# for i in range(1,rows+1):
+#     print(' '*(i-1)+'*'*(2*rows-2*i+1))
+
+
+
+# middle = (rows//2)+1
+# for i in range(1,rows+1):
+#     if i<middle:
+#         print(' '*(middle-i)+'*'*(2*i-1))
+#     else:
+#         print(' '*(i-middle)+'*'*(2*rows-2*i+1))
+
+
+
+# middle = (rows//2)+1
+# for i in range(1,rows+1):
+#     if i<middle:
+#         print(' '*(middle-i)+'*'*(2*i-1))
+#     else:
+#         print(' '*(i-middle)+'*'*(2*rows-2*i+1))
+
+
+
+
+
+        
+        
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
