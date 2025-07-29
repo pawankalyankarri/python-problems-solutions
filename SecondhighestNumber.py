@@ -7,7 +7,34 @@ for i in x:
     if i>first:
         second = first
         first = i
-    if i>second and i<first:
+    if i<first and i>second:
         second = i
-
 print(second)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# first = float('-inf')
+# second = float('-inf')
+
+# for i in x:
+#     if i>first:
+#         second = first
+#         first = i
+#     if i>second and i<first:
+#         second = i
+
+# print(second)
