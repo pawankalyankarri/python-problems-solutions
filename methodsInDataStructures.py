@@ -38,7 +38,11 @@
 
 d = {'name':'siva','age':32}
 
+# res = d.keys()
+# res = d.items()
+
+# print(res)
 
 # print(d['name'])
 
-print(d.get('name'))
+# print(d.get('name'))
